@@ -53,7 +53,7 @@ Machine-Learning/
 ### 1. Eksploracja danych (EDA)
 - Analiza rozkładu zmiennej docelowej
 - Wizualizacje: histogramy, macierz korelacji, scatter matrix, mapa geograficzna
-- Wykrycie silnej korelacji zmiennych `rain` i `precipitation` ze zmienną docelową → usunięcie jako **data leakage**
+- Wykrycie silnej korelacji zmiennych `rain` i `rain_sum_next_6h` ze zmienną docelową → usunięcie jako **data leakage**
 
 ### 2. Przygotowanie danych
 - Stratyfikowany podział na zbiór treningowy (80%) i testowy (20%) z użyciem `StratifiedShuffleSplit` po zmiennej `precipitation` (najsilniej niezbalansowana cecha)
