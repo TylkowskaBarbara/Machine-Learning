@@ -76,7 +76,7 @@ Główna metryka oceny: **F1-score** (odporna na niezbalansowane klasy)
 
 | Model | F1-Score (klasa 1) | Accuracy |
 |---|---|---|
-| Regresja Logistyczna | 0.80 | 79% |
+| Regresja Logistyczna | 0.80 | 80% |
 | Drzewo Decyzyjne | 0.81 | 80% |
 | **Las Losowy** | **0.82** | **81%** |
 
